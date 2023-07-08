@@ -135,15 +135,7 @@ def front_end():
 
 
 def main():
-    # input_data = front_end()
-
-    input_data = {
-        # 'ad_link': 'https://www.autoscout24.de/angebote/mercedes-benz-cls-63-amg-performance-designo-magno-b-o-acc-benzin-grau-a2ff75bb-a026-48d7-9fa4-d73623df20c8?sort=standard&desc=0&lastSeenGuidPresent=true&cldtidx=1&position=1&search_id=10x5i27ixzf&source_otp=nfm&source=listpage_search-results&order_bucket=unknown&topspot-algorithm=nfm-default&topspot-dealer-id=13514388',
-        'ad_link': 'https://suchen.mobile.de/fahrzeuge/auto-inserat/mercedes-benz-c-180-avantgarde-mbuxadvanced-led-hp-fahrerd-rfk-essen/366683071.html?ref=srp&searchId=6504f0f6-0e4e-e75e-48a8-2c459295197e&type=ad',
-        'spider_name': 'SuchenMobileDe', 'img_index': [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
-        'seller_name': 'Mr. Mohamed Owies', 'seller_phone': '0123456789', 'purchaser_name': '(PURCHASE NAME)',
-        'purchaser_phone': '(PHONE NO)', 'purchaser_email': '(EMAIL)', 'shipping_fees': 0, 'logistics_fees': 0,
-        'company_fees': 7, 'quotation_num': 'XX', 'datwe': 'XX.XX.XXXX'}
+    input_data = front_end()
 
     if input_data['spider_name'] == 'SuchenMobileDe':
         calling_spider(spider_name=SuchenMobileDe, url=[input_data['ad_link']], img_idx=input_data['img_index'])
