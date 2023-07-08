@@ -18,7 +18,7 @@ The aim of this program is to create a PDF upon information gathered from specif
 - `python3 run.py`
 
 # Program Instructions
-Move to Program dir 'others/programs/<os>/dist/run'
+Move to Program dir 'others/programs/\<os>\/dist/run'
 
 In linux run `./run`
 [Instruction video](https://www.youtube.com/watch?v=FbH46hqXGRw)
