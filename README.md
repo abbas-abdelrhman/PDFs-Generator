@@ -23,6 +23,6 @@ Move to Program path 'others/programs/<os>/dist/run/'
 In linux run `./run`
 [Instruction video](https://www.youtube.com/watch?v=FbH46hqXGRw)
 
-In Windows 
+In Windows `./run.exe`
 
 
