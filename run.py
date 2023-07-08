@@ -145,8 +145,6 @@ def main():
         'purchaser_phone': '(PHONE NO)', 'purchaser_email': '(EMAIL)', 'shipping_fees': 0, 'logistics_fees': 0,
         'company_fees': 7, 'quotation_num': 'XX', 'datwe': 'XX.XX.XXXX'}
 
-    # input_data['ad_link'] = "https://www.autoscout24.de/angebote/mercedes-benz-cls-63-amg-cls-63-amg-amg-speedshift-mct-edition-1-benzin-silber-7dd85c34-e8d0-49de-8189-05ab792d3c5f?ipc=recommendation&ipl=homepage-engine-itemBased&source=homepage_recommender&position=2&source_otp=t10"
-
     if input_data['spider_name'] == 'SuchenMobileDe':
         calling_spider(spider_name=SuchenMobileDe, url=[input_data['ad_link']], img_idx=input_data['img_index'])
     else:
