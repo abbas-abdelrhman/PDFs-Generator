@@ -18,7 +18,7 @@ from helper import list2table, calculate_percentage, price_format, resource_path
 
 class PdfGenerator(BaseDocTemplate):
     def __init__(self, api_data, input_data, **kwargs):
-        super().__init__(f"{api_data['car_id']}.pdf", page_size=A4, leftMargin=1.5 * cm, rightMargin=1.5 * cm,
+        super().__init__(f"../{api_data['car_id']}.pdf", page_size=A4, leftMargin=1.5 * cm, rightMargin=1.5 * cm,
                          bottomMargin=0.75 * cm,
                          _pageBreakQuick=0, **kwargs)
 
@@ -26,6 +26,7 @@ class PdfGenerator(BaseDocTemplate):
         self.input_data = input_data
         self.img_root_path = 'images'
         print(f"{api_data['car_id']}.pdf")
+
         self.styles = getSampleStyleSheet()
         pdfmetrics.registerFont(TTFont('calibri', 'Calibri.ttf'))
 
