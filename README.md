@@ -18,11 +18,13 @@ The aim of this program is to create a PDF upon information gathered from specif
 - `python3 run.py`
 
 # Program Instructions
-Move to Program dir 'others/programs/\<os>\/dist/run'
+Go to Program dir 'others/programs/\<os>\/dist/run'
 
-In linux run `./run`
+In linux run `./run` in the terminal
 [Instruction video](https://www.youtube.com/watch?v=FbH46hqXGRw)
 
-In Windows `./run.exe`
+In Windows `./run.exe` in cmd or just click on it
+
+The output file will be in 'others/programs/\<os>\/dist
 
 
