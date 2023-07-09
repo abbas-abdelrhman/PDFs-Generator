@@ -8,7 +8,7 @@ a = Analysis(
     ['..\\..\\..\\run.py'],
     pathex=[],
     binaries=[],
-    datas=[('H:\\temp\\PDFs-Generator\\assets', '.')],
+    datas=[('assets', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
